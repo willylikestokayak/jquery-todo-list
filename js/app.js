@@ -12,12 +12,11 @@ $('#addItem').click(function() {
 	}
 );
 
-// $('input').keypress(function(event) {
-// 	if (event.which == 13) {
-// 		event.preventDefault();
-// 		$('form').submit();
-// 	}
-// });
+$('#newInput').keypress(function(event) {
+	if (event.keyCode == 13) {
+		$('#addItem').click();
+	}
+});
 
 $('#addItem').on('click', function() {
 	$('#newInput').val('');
