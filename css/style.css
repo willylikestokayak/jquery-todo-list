@@ -1,0 +1,78 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	background-color: #e5e8e5
+}
+
+body {
+	text-align: center;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+h1 {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 60px;
+}
+
+ul {
+	list-style-image: url("/Users/willylikestokayak/source/unit1/jquery-todo-list/img/bulletList.png");
+}
+
+#mainList {
+	font-family: 'Architects Daughter', cursive;
+	list-style-position: inside;
+	font-size: 40px;
+	/*list-style-image: url("img/bulletList.png");*/
+	
+}
+
+.delete {
+	background-color: #596982;
+	padding: 0 0 2px 0;
+	height: 30px;
+	width: 80px;
+	margin: 0 0 0 10px;
+	border: 2px solid;
+	border-radius: 25px;
+	text-align: center;
+	font-family: 'Caveat', cursive;
+	font-size: 20px;
+	font-color: #4b514b;
+	box-shadow: 0 10px 20px -5px rgba(0,0,0,.8);
+}
+
+#newInput {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 40px;
+	font-color: #455772;
+	border-radius: 5px;
+	box-shadow: 0 10px 20px -5px rgba(0,0,0,.5);
+	border-width: 8px;
+	border-style: outset;
+	text-align: center;
+	border-color: #596982;
+}
+
+#addItem {
+	background-color: #268426;
+	padding: 0 0 2px 0;
+	height: 50px;
+	width: 125px;
+	margin: 0 0 0 10px;
+	border: 2px solid;
+	border-radius: 25px;
+	text-align: center;
+	font-family: 'Caveat', cursive;
+	font-size: 30px;
+	font-color: #4b514b;
+	box-shadow: 0 10px 20px -5px rgba(0,0,0,.8);
+}
+
+/*
+font-family: 'Permanent Marker', cursive; -- title
+font-family: 'Architects Daughter', cursive; --list
+font-family: 'Caveat', cursive; -- box / everything else
+*/
